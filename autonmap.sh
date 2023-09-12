@@ -2,7 +2,7 @@
 
 # Parameter verify
 if [ $# -eq 0 ]; then
-  echo "Usage: ./autonmap.sh <IP>" #$0
+  echo "Usage: ./autonmap.sh <IP1> <IP2> ..." #$0
   exit 1
 fi
 
