@@ -15,7 +15,7 @@ for arg in "$@"; do
 	# IP address
 	ip="$arg"
 
-	# Port discover Nmap
+	# Port discover
 	sudo nmap -sS -Pn -n --min-rate 5000 -p- --open $ip -oG "$ip-ports"
 
 	# Port extraction
