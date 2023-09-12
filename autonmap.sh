@@ -32,5 +32,5 @@ done
 
 
 echo "-------------------------------------------------------------------------------------------"
-echo "Scan completed - Results saved on 'IP-details' file
+echo "Scan completed - Results saved on 'IP-details' file"
 echo "-------------------------------------------------------------------------------------------"
